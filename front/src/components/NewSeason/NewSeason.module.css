@@ -1,0 +1,45 @@
+.new_season {
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding-left: 50px;
+}
+
+.headers {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.headers > h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.headers > h2 {
+    color: white;
+    font-size: 63px;
+    font-weight: 700;
+}
+
+.sale_btn {
+    height: 82px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 700;   
+    margin-top: 50px;
+}
+
+.new_season img {
+    margin-bottom: 45px;
+}

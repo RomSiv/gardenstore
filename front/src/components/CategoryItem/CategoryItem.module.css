@@ -1,0 +1,17 @@
+.category_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 416px;
+}
+
+.category_item img {
+    height: 350px;
+    width: 318px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.category_item p {
+font-size: 27px;
+}

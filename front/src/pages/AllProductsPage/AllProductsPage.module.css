@@ -1,0 +1,12 @@
+.products_page h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 59px;
+}
+
+.filters {
+    padding-top: 81px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}

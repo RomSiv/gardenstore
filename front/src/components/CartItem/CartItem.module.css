@@ -1,0 +1,59 @@
+.item {
+    margin: 10px 0;
+    border: 1px solid black;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 10px;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.delete_btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.title {
+    width: 390px;
+}
+
+.price {
+    position: absolute;
+    right: 100px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.discont {
+    color: red;
+}
+
+.item > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px 0;
+}
+
+.count {
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 70px;
+}
+
+.count > div {
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.discount_form label{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.discount_form p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.discount_form input {
+    width: 40px;
+    height: 40px;
+}

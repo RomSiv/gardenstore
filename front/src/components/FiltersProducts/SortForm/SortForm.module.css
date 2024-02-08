@@ -1,0 +1,18 @@
+.sort_form label{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sort_form p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sort_form select {
+    width: 219px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}

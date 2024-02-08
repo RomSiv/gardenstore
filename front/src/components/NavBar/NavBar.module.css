@@ -1,0 +1,31 @@
+.nav_bar {
+    margin: 19px 26px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: relative;
+    @font-face {
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.green_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 331px;
+    height: 21px;
+    position: absolute;
+    right: 20%;
+}
+
+a {
+    text-decoration: none;
+}

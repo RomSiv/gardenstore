@@ -1,0 +1,29 @@
+.filter {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.filter p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.filter input {
+    width: 103px;
+    height: 42px;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.filter div {
+    border: 2px solid black;
+    width: 103px;
+    height: 42px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

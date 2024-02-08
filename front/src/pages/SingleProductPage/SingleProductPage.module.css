@@ -1,0 +1,57 @@
+.page {
+    padding: 20px 30px;
+}
+
+.page h1 {
+    margin-left: 50px;
+}
+
+.item {
+padding-top: 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.item img {
+    width: 710px;
+    height: 710px;
+}
+.item_description {
+    width: 425px;
+    height: 454px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+
+.to_card_btn {
+    width: 250px;
+    height: 100px;
+    border: 1px solid green;
+    border-radius: 15px 0;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 30px;
+}
+
+.discont {
+    font-size: 30px;
+    color: red;
+}
+
+.discont_price {
+    font-size: 30px;
+}

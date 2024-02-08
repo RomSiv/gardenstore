@@ -1,0 +1,34 @@
+.social_network {
+    display: flex;
+    gap: 40px;
+}
+
+.insta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.insta:first-child {
+    height: 50px;
+    width: 50px;
+}
+
+.insta:last-child {
+    height: 19px;
+}
+
+.whatsapp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.wsapp {
+    height: 10px;
+}

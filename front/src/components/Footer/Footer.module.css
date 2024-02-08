@@ -1,0 +1,16 @@
+.google {
+    margin: 100px 32px 0 32px;
+    color: black;
+    font-size: 25px;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
